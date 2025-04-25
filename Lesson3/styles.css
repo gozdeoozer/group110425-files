@@ -1,4 +1,68 @@
- /* CSS Units:
+* {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0;
+}
+ 
+ p {
+  margin: 20px 0;
+ }
+
+ section {
+  display: flex;
+  align-items: flex-start;
+ }
+
+ img {
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+ }
+ 
+ .link {
+  margin: 14px;
+  display: block;
+ }
+ 
+ .btn {
+  padding: 12px 16px;
+  min-width: 250px;
+  margin: 20px 0;
+  width: 100%;
+  
+  border-top: 5px solid #44403c;
+  border-right: 4px solid #44403c;
+  border-bottom: 3px solid #44403c;
+  border-left: 2px solid #44403c;
+
+  border: 3px solid #44403c;
+  border-radius: 5px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 10px;
+ }
+
+ .divider {
+  height: 2px;
+  background-color: #262626;
+ }
+
+
+
+ .square {
+  background-color: #ecfccb;
+  width: 200px;
+  display: inline-block;
+ }
+ 
+ 
+ 
+/* CSS Units:
+ https://www.w3schools.com/cssref/css_units.php
+
 1. Aboslute Units (px, pt, cm, mm, in)
 2. Relative Units (%, em, rem, vw, vh)
 em, rem - relative to the font-size of the element (usually used with font related sizes)
