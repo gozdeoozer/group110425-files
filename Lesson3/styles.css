@@ -1,0 +1,10 @@
+ /* CSS Units:
+1. Aboslute Units (px, pt, cm, mm, in)
+2. Relative Units (%, em, rem, vw, vh)
+em, rem - relative to the font-size of the element (usually used with font related sizes)
+EM - Standard browser font size is 16px, 1em = 16px, 1.5em = 24px, 2em = 32px
+REM - root / body / html element's font-size 14px, 1rem = 14px, 1.5rem = 21px, 2rem = 28px
+
+% - relative to the parent element
+vw, vh - relative to the viewport size (1vw = 1% of viewport width, 100vw = 100% of viewport width)
+  */
