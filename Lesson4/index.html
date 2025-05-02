@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson 4</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <form>
+      <div class="input-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" required name="name" class="full-width"/>
+      </div>
+      <div class="input-group">
+        <label for="email">Email</label>
+        <input
+          type="email"
+          id="email"
+          reqired
+          name="email"
+          placeholder="abc@x.com"
+          class="full-width"
+        />
+      </div>
+      <div class="input-group">
+        <label for="phone">Phone Number</label>
+        <input
+          type="tel"
+          id="phone"
+          required
+          name="phone"
+          placeholder="+90 555 XXX XX XX"
+          class="full-width"
+        />
+      </div>
+      <div class="input-group">
+        <label for="birthday">Date of Birth</label>
+        <input type="date" id="birthday" required name="birthday" 
+        class="full-width"
+        />
+      </div>
+      <div class="input-group">
+        <label for="price-range">Price Range</label>
+        <input type="range" required name="price-range" min="0" max="100" 
+        class="full-width"/>
+      </div>
+
+      <fieldset class="input-group">
+        <legend>Gender:</legend>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="Male" />
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" value="Female" />
+      </fieldset>
+
+      <div class="input-group">
+        <button type="submit" class="full-width">
+          Send
+        </button>
+        <!-- <input type="submit" value="Send"> -->
+      </div>
+    </form>
+  </body>
+</html>
