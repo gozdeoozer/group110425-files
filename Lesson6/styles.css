@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-light: #effafa;
+  --primary-dark: #5ca5a5;
+
+  --dark: #2b3939;
+  --light: #7c8f8f;
+
+  --base: #ffffff;
+  --border-radius: 5px;
+  --border-radius-rounded: 12px;
+}
+
+body {
+  font-family: 'League Spartan', sans-serif;
+  background-color: var(--primary-light);
+}
+
+.bg-primary {
+  background-color: var(--primary-dark);
+}
+.bg-dark {
+  background-color: var(--dark);
+}
+
+.tag {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: -0.123px;
+  background-color: var(--primary-light);
+  color: var(--primary-dark);
+  padding: 5px 10px;
+  border-radius: var(--border-radius);
+}
+
+.card {
+  background-color: var(--base);
+  border-radius: var(--border-radius);
+  box-shadow: 0px 15px 20px -5px rgba(13, 113, 130, 0.15);
+  max-width: 1110px;
+  margin: 76px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 40px;
+}
+
+.flex-row {
+  display: flex;
+  gap: 24px;
+}
+.tag-rounded {
+  display: inline-block;
+  border-radius: var(--border-radius-rounded);
+  padding: 7px 8px 5px;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: -0.108px;
+  text-transform: uppercase;
+  color: var(--base);
+}
