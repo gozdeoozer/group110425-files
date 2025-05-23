@@ -46,3 +46,18 @@ ul {
   background-color: #e6e8ec;
   border-radius: 2px;
 }
+.icon-with-badge {
+  display: block;
+  position: relative;
+}
+
+.badge {
+  font-size: 12px;
+  border-radius: 50%;
+  border: 1px solid #777E90;
+  background: #18191D;
+  padding: 2px 6px;
+  position: absolute;
+  top: -50%;
+  right: -60%;
+}
