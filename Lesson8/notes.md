@@ -11,6 +11,7 @@ Blocks are independent components that can exist on their own.
 .card
 .pagination
 .footer
+.shopping-cart
 
 
 ## Elements (block__element)
@@ -64,6 +65,9 @@ Buttons (.card__button)
 .card__button--primary
 .card__button--secondary
 .card__button--disabled
+
+.button--primary
+.button--secondary
 
 Card Variants (.card)
 .card--featured (Highlighted card)
